@@ -2,7 +2,7 @@ FROM golang:alpine as BUILDER
 WORKDIR /go/src/app
 COPY . .
 RUN go mod vendor
-RUN GOOS=linux go build -o main
+RUN GOOS=linux go build -buildvcs=false -o main
 FROM alpine
 EXPOSE 80
 WORKDIR /app
