@@ -1,6 +1,6 @@
 #!/bin/sh
 TAG=$(date '+%Y%d%m.%H%M%S')
-ImageName="minhnv/demogocicd"
+ImageName="mjnk9xw/democicdgithub"
 
 echo "Building image $ImageName:$TAG"
 docker build . -t $ImageName:$TAG
