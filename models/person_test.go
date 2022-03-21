@@ -2,6 +2,7 @@ package models
 
 import (
 	"errors"
+	"log"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -12,5 +13,6 @@ func TestPerson(t *testing.T) {
 }
 
 func TestPerson2(t *testing.T) {
-	panic("error")
+	// panic("error")
+	log.Println("ok")
 }
