@@ -4,7 +4,7 @@ on:
     types: [opened, synchronize]
 jobs:
   build_binary:
-    name: Build mezon binary
+    name: Build binary
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go
