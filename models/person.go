@@ -1,5 +1,5 @@
 package models
 
 type Test struct {
-	// HIHI 6
+	// HIHI 7
 }
