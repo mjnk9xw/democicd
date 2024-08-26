@@ -5,5 +5,5 @@ type Test struct {
 	A string
 	B int
 	C int
-	D int
+	E int
 }
