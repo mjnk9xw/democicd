@@ -1,5 +1,6 @@
 {
     "yaml.schemas": {
         "https://json.schemastore.org/github-workflow.json": "file:///home/minhnv/go/src/democicd/.github/workflows/main.yml"
-    }
+    },
+    "makefile.configureOnOpen": false
 }
