@@ -2,7 +2,7 @@ package models
 
 type Test struct {
 	// HIHI 8
-	B string
+	V string
 	C int
 	E int
 	F int
